@@ -1,3 +1,3 @@
 #!/bin/bash
 
-gcc -o helloWorld helloWorld.c
+gcc -Wall -o helloWorld helloWorld.c

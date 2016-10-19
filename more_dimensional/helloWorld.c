@@ -30,5 +30,6 @@
    printf("value of t[0][0]: %c\n", t[0][0]);
    printf("value of t[0]: %c\n", *t[0]);
    printf("value of t: %c\n", **t);
+   printf("value of t: %c\n", *t);
   return 0; /* return OK*/ 
   }
