@@ -10,21 +10,11 @@
 
   **********************************************/ 
 
-/* include all used libraries */
+
 #include <stdio.h>
 
-/* pre-declare functions*/
 
-
-
-/* function sector*/
-
-/* <optional> start point of program*/ 
-  int main( int argc, const char* argv[] ) { 
- /* function body*/
-
-  // pointer example
-
+int main( int argc, const char* argv[] ) { 
   char c = 'a';
   char* cp = &c;
   printf("value of variable: %c\n", c);
@@ -38,12 +28,12 @@
 
   char my_string[] = "abcdefghijklmno";
 
-  cp = &my_string[5];
+  cp = &my_string[5];  // take the address of my_string[5] and save it in cp
   printf("value of pointer: %c\n", *cp);
   printf("Address of c: %x \n", cp);
 
   printf("value of pointer: %c\n", *(cp + 1));
   printf("Address of c: %x \n", cp + 1);
 
-    return 0; /* return OK*/ 
-  }
+  return 0; /* return OK*/ 
+}

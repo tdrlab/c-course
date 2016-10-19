@@ -10,19 +10,11 @@
 
   **********************************************/ 
 
-/* include all used libraries */
 #include <stdio.h>
 #include "helloWorld.h" 
-/* pre-declare functions*/
 
-
-
-/* function sector*/
-
-/* <optional> start point of program*/ 
-  int main( int argc, const char* argv[] ) { 
- /* function body*/
-  	print_hw(); 
-    return 0; /* return OK*/ 
-  }
+int main( int argc, const char* argv[] ) { 
+	print_hw(); 
+return 0; /* return OK*/ 
+}
 

@@ -35,5 +35,3 @@ int print_bits(){
 	printf("i: %d\n",i);
 	return 1;
 }
-
-`

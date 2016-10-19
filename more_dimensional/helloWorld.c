@@ -1,35 +1,28 @@
 /*********************************************** 
 
-  *   Code File helloWorld.c                                              *
+  *   Code File helloWorld.c                   *
 
-  *  (c) 2016  *
+  *  (c) 2016                                  *
 
-  *                                                                                      *
+  *                                            *
 
-  *    Just to illustrate the functionality of C                        *
+  *    hello world                             *
 
   **********************************************/ 
 
-/* include all used libraries */
 #include <stdio.h>
 
-/* pre-declare functions*/
 
+int main( int argc, const char* argv[] ) { 
 
-
-/* function sector*/
-
-/* <optional> start point of program*/ 
-  int main( int argc, const char* argv[] ) { 
- /* function body*/
-   char t[3][3] = {
-                  {'1','2','3'},
-                  {'4','5','6'},
-                  {'7','8','9'}
-   };
-   printf("value of t[0][0]: %c\n", t[0][0]);
-   printf("value of t[0]: %c\n", *t[0]);
-   printf("value of t: %c\n", **t);
-   printf("value of t: %c\n", *t);
-  return 0; /* return OK*/ 
-  }
+  char t[3][3] = {
+                {'1','2','3'},
+                {'4','5','6'},
+                {'7','8','9'}
+  };
+  printf("value of t[0][0]: %c\n", t[0][0]);
+  printf("value of t[0]: %c\n", *t[0]);
+  printf("value of t: %c\n", **t);
+  printf("value of t: %c\n", *t);
+return 0; /* return OK*/ 
+}

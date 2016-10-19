@@ -1,12 +1,12 @@
 /*********************************************** 
 
-  *   Code File helloWorld.c                                              *
+  *   Code File helloWorld.c                   *
 
-  *  (c) 2016  *
+  *  (c) 2016                                  *
 
-  *                                                                                      *
+  *                                            *
 
-  *    Just to illustrate the functionality of C                        *
+  *    hello world                             *
 
   **********************************************/ 
 
@@ -20,17 +20,16 @@
 /* function sector*/
 
 /* <optional> start point of program*/ 
-  int main( int argc, const char* argv[] ) { 
- /* function body*/
-   int t[5] = {1,2,3,4,5};
+int main( int argc, const char* argv[] ) { 
+  int t[5] = {1,2,3,4,5};
 
-   for (int i=0; i<6;i++){
-      printf("i=%d\n",t[i]);
-   }
-
-   for (int i=0; i<6;i++){  // super bad!
-      t[i] = i;
-   }
-   t[6] = 0;
-   return 0;
+  for (int i=0; i<6;i++){
+    printf("i=%d\n",t[i]);
   }
+
+  for (int i=0; i<6;i++){  // super bad!
+    t[i] = i;
+  }
+  t[6] = 0;
+  return 0;
+}

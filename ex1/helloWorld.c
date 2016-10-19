@@ -1,14 +1,15 @@
 /*********************************************** 
 
-  *   Code File helloWorld.c                                              *
+  *   Code File helloWorld.c                   *
 
-  *  (c) 2016  *
+  *  (c) 2016                                  *
 
-  *                                                                                      *
+  *                                            *
 
-  *    Just to illustrate the functionality of C                        *
+  *    hello world                             *
 
   **********************************************/ 
+
 
 /* include all used libraries */
 

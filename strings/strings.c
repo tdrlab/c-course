@@ -1,28 +1,21 @@
 /*********************************************** 
 
-  *   Code File helloWorld.c                                              *
+  *   Code File helloWorld.c                   *
 
-  *  (c) 2016  *
+  *  (c) 2016                                  *
 
-  *                                                                                      *
+  *                                            *
 
-  *    Just to illustrate the functionality of C                        *
+  *    hello world                             *
 
   **********************************************/ 
 
-/* include all used libraries */
+
 #include <stdio.h>
 #include <string.h>
 
-/* pre-declare functions*/
 
-
-
-/* function sector*/
-
-/* <optional> start point of program*/ 
-  int main( int argc, const char* argv[] ) { 
- /* function body*/
+int main( int argc, const char* argv[] ) { 
 
 	char arr[40] = "My Name, array";
 	char* ptr = "My Name, Pointer";
@@ -36,6 +29,6 @@
 	printf("%s\n", ptr);
 
 	return 0;
-  }
+}
 
  

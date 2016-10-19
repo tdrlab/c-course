@@ -1,25 +1,22 @@
 /*********************************************** 
 
-  *   Code File helloWorld.c                                              *
+  *   Code File helloWorld.c                   *
 
-  *  (c) 2016  *
+  *  (c) 2016                                  *
 
-  *                                                                                      *
+  *                                            *
 
-  *    Just to illustrate the functionality of C                        *
+  *    hello world                             *
 
   **********************************************/ 
 
-/* include all used libraries */
+
 #include <stdio.h>
 #include <stdlib.h>
-/* pre-declare functions*/
 
 
-
-/* function sector*/
 int write_to_file(const char* path, const char* text, long unsigned int length);
-/* <optional> start point of program*/ 
+
 int main( int argc, const char* argv[] ) { 
 	char *buffer = NULL;
 	int read;
